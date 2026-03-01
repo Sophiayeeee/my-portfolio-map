@@ -7,7 +7,7 @@ export default function Home() {
         style={{
           fontSize: 32,
           fontWeight: 600,
-          letterSpacing: "0.08em",
+          letterSpacing: "0.02em",
           marginBottom: 24,
         }}
       >
