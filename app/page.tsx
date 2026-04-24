@@ -6,10 +6,17 @@ export default function Home() {
       style={{
         minHeight: "100vh",
         padding: 32,
-        backgroundImage: 'url("/images/sophiaverse-bg.png")',
+        backgroundImage: `
+          linear-gradient(
+            rgba(20, 10, 40, 0.08),
+            rgba(20, 10, 40, 0.18)
+          ),
+          url("/images/sophiaverse-bg.png")
+        `,
         backgroundSize: "cover",
         backgroundPosition: "center center",
         backgroundRepeat: "no-repeat",
+        backgroundAttachment: "fixed",
       }}
     >
       <section
@@ -46,6 +53,7 @@ export default function Home() {
           overflow: "hidden",
           border: "1px solid rgba(255, 255, 255, 0.25)",
           boxShadow: "0 24px 80px rgba(0, 0, 0, 0.28)",
+          background: "rgba(255, 255, 255, 0.04)",
         }}
       >
         <ClientMap />
