@@ -8,13 +8,13 @@ export default function Home() {
         padding: 32,
         backgroundImage: `
           linear-gradient(
-            rgba(18, 10, 35, 0.35),
-            rgba(18, 10, 35, 0.55)
+            rgba(18, 10, 35, 0.08),
+            rgba(18, 10, 35, 0.16)
           ),
           url("/images/sophiaverse-bg.png")
         `,
         backgroundSize: "cover",
-        backgroundPosition: "center",
+        backgroundPosition: "center top",
         backgroundAttachment: "fixed",
       }}
     >
@@ -50,10 +50,10 @@ export default function Home() {
         style={{
           borderRadius: 24,
           overflow: "hidden",
-          border: "1px solid rgba(255, 255, 255, 0.25)",
-          boxShadow: "0 24px 80px rgba(0, 0, 0, 0.35)",
-          background: "rgba(255, 255, 255, 0.12)",
-          backdropFilter: "blur(12px)",
+          border: "1px solid rgba(255, 255, 255, 0.18)",
+          boxShadow: "0 24px 80px rgba(0, 0, 0, 0.28)",
+          background: "rgba(255, 255, 255, 0.04)",
+        
         }}
       >
         <ClientMap />
