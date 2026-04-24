@@ -8,8 +8,8 @@ export default function Home() {
         padding: 32,
         backgroundImage: `
           linear-gradient(
-            rgba(20, 10, 40, 0.08),
-            rgba(20, 10, 40, 0.18)
+            rgba(18, 10, 40, 0.35),
+            rgba(18, 10, 40, 0.55)
           ),
           url("/images/sophiaverse-bg.png")
         `,
